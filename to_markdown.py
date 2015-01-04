@@ -16,15 +16,18 @@ from pptx.shapes.picture import Picture
 
 SLIDE_SEPARATOR = '@@'
 
+IMAGE_PREFIX = 'images/image'
+IMAGE_SUFFIX = '.png'
+
 
 def get_runs(presentation):
     runs = []
-    img_index = 0
+    img_index = 1
     for slide_index, slide in enumerate(presentation.slides):
         for shape_index, shape in enumerate(slide.shapes):
             if not shape.has_text_frame:
                 if isinstance(shape, Picture):
-                    runs.append((slide_index, True, False, 'img{0}'.format(img_index)))
+                    runs.append((slide_index, True, False, '{0}{1}{2}'.format(IMAGE_PREFIX, img_index, IMAGE_SUFFIX)))
                     img_index += 1
                     continue
                 else:
@@ -53,7 +56,7 @@ def as_markdown(runs):
     for run_num, run in enumerate(runs):
         slide_num, is_image, is_header, text = run
         if is_image:
-            print("[]({0})".format(text))
+            print("![]({0})".format(text))
             print("")
             continue
         if is_header:
