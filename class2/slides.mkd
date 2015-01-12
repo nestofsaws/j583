@@ -1,0 +1,94 @@
+###Command Line Part Deux
+
+More and better usage of the commands
+
+@@
+
+###Pipes and Redirection
+
+|
+
+>
+
+\>>
+
+<
+@@
+
+###Continued
+The | (pipe) takes the output from the command on the left, and "pipes" it to the command on the right
+
+The >  takes the output of the command on the left, then writes it to the command on the right.
+
+The >>  takes the output of the command on the left, then appends  it to the command on the right.
+
+The <  will take and send the input from the file on the right to the program on the left. (not used often)
+@@
+
+###Pipe | Output of command to another command
+
+![](images/image1.png)
+
+@@
+
+###> Pass and Write
+
+Takes output of command and write to file on the right.
+
+![](images/image2.png)
+
+@@
+
+###>> Pass and Append
+
+Take command and add to bottom of existing file.
+
+![](images/image3.png)
+
+@@
+
+###Wildcards *
+
+Matching strings with *
+
+![](images/image4.png)
+
+glob patterns
+
+@@
+
+###Finding Files
+
+How to find anything!
+
+![](images/image5.png)
+
+@@
+
+###Finding more with grep
+
+Looking Inside Files!
+
+Comand + string + .
+
+Comand + string + type
+
+Comand + options + string + type
+
+![](images/image6.png)
+
+@@
+
+###Need help?
+
+Ask the man in the machine.
+Type man for manual.
+
+![](images/image7.png)
+
+@@
+
+###Assignment 2
+
+Follow the commands on today’s post and save the console log.
+
