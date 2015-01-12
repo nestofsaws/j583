@@ -1,8 +1,8 @@
 ###Intro to the Command Line
 
-Quit Whining and Shell!
+####Don't Be Scared. Shell!
 
-Steven King and Caleb Smith
+Slides by Steven King and Caleb Smith
 
 J583 Adv. Interactive Multimedia Programing
 
@@ -14,7 +14,7 @@ Type Everything I do
 
 Memorize the Commands
 
-Commit!
+Sound them out
 
 @@
 
@@ -24,7 +24,7 @@ Type something
 
 Do it again
 
-And again
+And again...
 
 @@
 
@@ -120,6 +120,7 @@ rm –r *
 
 ![](images/image9.png)
 
+
 In Class Exercise:
 
 Create this directory structure using the commands you just learned.
@@ -130,15 +131,19 @@ Hint: Pay attention to upper/lower case.
 
 @@
 
-###Copy (cp) From Space To
+###Copy (cp) From To
 
 ![](images/image10.png)
 
+cp file1 file2
+
 @@
 
-###Move (mv)  From Space To
+###Move (mv) From To
 
 ![](images/image11.png)
+
+mv file1 file2
 
 @@
 
@@ -199,21 +204,28 @@ Questions, Comments, Fears
 
 ###Assignment 1
 
-Perform each of these commands 20 times. Saying the command each time.
+Perform each of these commands, saying the command each time:
 
-Copy Files, Move
+* Touch 2 to 5 files
 
-Dirs
+* Insert text into them with vi
 
-, Delete
+* Cat each of them
 
-Dirs
+* Copy them 20 times
 
-Save or Export the text of the entire script as
+* Make at least 10 folders
 
-LastName_First
+* Move at least 10 files into them
 
-.
+* List the files in each of them
+
+* Delete empty dirs
+
+Save the text from the terminal as
+
+Lastname_Firstname
+
 
 Don’t worry about your mistakes. Know  you will make many of them
 
@@ -223,6 +235,7 @@ Email me with subject line J583 Assignment 1
 
 ###For Wednesday
 
-Turn in assignment 1 before class
+####Turn in assignment 1 before class
+(Email me with subject line J583 Assignment 1)
 
 Quiz on commands covered so far.
