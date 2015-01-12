@@ -1,0 +1,99 @@
+###Learn Git with GitHub
+
+More than just version control. Its Social!
+
+![](images/image1.png)
+
+@@
+
+###What is Git
+
+####Distributed Version Control
+
+**Git**
+
+ is a command line utility
+
+**GitHub**
+
+ is a website/online tool
+
+@@
+
+###Why use Git/GitHub
+
+Incase you screw up, it’s backed up!
+
+Once you understand it you will love it!
+
+Only way to send me code from now on!!!
+
+@@
+
+###Steps
+
+Signup for GitHub
+
+Setup Git (local)
+
+Create a repository (repo)
+
+Code
+
+Publish
+
+Code
+
+Publish
+
+@@
+
+###GitHub Setup
+
+https://help.github.com/
+
+![](images/image2.png)
+
+@@
+
+###Setup Git
+
+https://help.github.com/articles/set-up-git
+
+Download and install Git
+
+http://git-scm.com/downloads
+
+@@
+
+###Setup Git (continued)
+
+![](images/image3.png)
+
+@@
+
+###Git Password Caching
+
+![](images/image4.png)
+
+@@
+
+###Create a Repo
+
+![](images/image5.png)
+
+@@
+
+###Git Commands
+
+git clone
+
+git status
+
+git add
+
+git commit
+
+git push
+
+git pull
