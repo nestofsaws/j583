@@ -86,14 +86,75 @@ http://git-scm.com/downloads
 
 ###Git Commands
 
+git init
+
 git clone
 
 git status
 
+git diff
+
 git add
+
+git reset
 
 git commit
 
 git push
 
 git pull
+
+git log
+
+@@
+
+###Guides
+
+[Try Git - GitHub](https://try.github.io/)
+
+[Git Guide](http://rogerdudler.github.io/git-guide/)
+
+@@
+
+### Reference
+
+* For future reference:
+
+[GitHub Workflow PDF](/github_workflow.pdf)
+
+* man - Use  **`man git`**  and friends
+@@
+
+### Assignment 3
+
+For this assignment, you will create a fork of calebsmith/j583 and
+complete a pull request.
+
+* Fork calebsmith/j583 on GitHub
+
+* From a terminal:
+    * Go to your "Projects" directory and clone your fork
+    * cd into the new folder called 'j583'
+    * Create a file called 'favorite_foods.txt' with your name and some of
+      your favorite foods (Example on next page)
+    * Add the file and make a commit.
+    * Push to your github.
+
+* Create a pull request from your fork, to calebsmith/j583
+* Put "Assignment 3" as the name of the pull request
+
+@@
+
+### Example file
+
+```text
+    Caleb
+    -----
+        pizza
+        tofu
+        kefir
+```
+
+@@
+
+### What are your questions?
