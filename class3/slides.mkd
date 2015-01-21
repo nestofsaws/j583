@@ -22,7 +22,7 @@ More than just version control. Its Social!
 
 ###Why use Git/GitHub
 
-Incase you screw up, it’s backed up!
+In case you screw up, it’s backed up!
 
 Once you understand it you will love it!
 
@@ -32,7 +32,7 @@ Only way to send me code from now on!!!
 
 ###Steps
 
-Signup for GitHub
+Sign up for GitHub
 
 Setup Git (local)
 
@@ -120,7 +120,7 @@ git log
 
 * For future reference:
 
-[GitHub Workflow PDF](/github_workflow.pdf)
+[GitHub Workflow PDF](github_workflow.pdf)
 
 * man - Use  **`man git`**  and friends
 @@
